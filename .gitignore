@@ -1,0 +1,45 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Fabric
+/fabric-loom/
+/fabric-loader/
+
+# Minecraft specific
+/run/
+*.pid
+*.log
+
+# Gradle Wrapper
+gradle-wrapper.jar
