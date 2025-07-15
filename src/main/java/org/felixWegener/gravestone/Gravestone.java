@@ -67,7 +67,7 @@ public class Gravestone implements ModInitializer {
         BlockPos pos = player.getBlockPos();
         BlockPos pos2 = pos.up();
 
-        World world = player.getEntityWorld();
+        World world = player.getWorld();
 
         world.setBlockState(pos, Blocks.CHEST.getDefaultState());
         world.setBlockState(pos2, Blocks.CHEST.getDefaultState());
